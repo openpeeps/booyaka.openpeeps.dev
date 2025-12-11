@@ -19,19 +19,6 @@ metadata:
     - "documentation"
 ```
 
-## SEO Content pages
-For content pages, you can use the YAML front matter to set the following SEO-related fields:
-```yaml
----
-title: "Page Title"
-description: "A brief description of the page content."
-keywords:
-  - "keyword1"
-  - "keyword2"
-  - "keyword3"
----
-```
-
 ## Open-Graph Settings
 You can also configure Open-Graph settings to enhance the appearance of your documentation pages when shared on social media platforms. Use the following fields in the YAML front matter of your content pages:
 ```yaml
