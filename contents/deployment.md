@@ -12,6 +12,7 @@ Booyaka can be configured to work behind a reverse proxy. This is useful if you 
 
 
 ### Nginx Configuration
+An example configuration for Nginx to set up a reverse proxy for Booyaka is as follows:
 ```
 server {
     listen 80;
@@ -29,6 +30,7 @@ server {
 
 
 ### Apache Configuration
+The following is an example configuration for Apache to set up a reverse proxy for Booyaka:
 ```
 <VirtualHost *:80>
     ServerName docs.example.com
@@ -38,3 +40,29 @@ server {
     ProxyPassReverse / http://127.0.0.1:8080/
 </VirtualHost>
 ```
+
+
+### Systemd Service Configuration
+To run Booyaka as a service on your server, you can create a systemd service file. 
+This way Booyaka will start automatically on boot and can be managed using standard systemd commands. Create a file named `booyaka.service` in `/etc/systemd/system/` with the following content:
+
+```
+[Unit]
+Description=Booyaka Documentation Service
+After=network.target
+
+[Service]
+User=your-username
+WorkingDirectory=/path/to/your/booyaka/project
+ExecStart=/usr/bin/booyaka start .
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+## Static Site Deployment
+Booyaka can generate static files for your documentation site, which can be deployed to any static hosting service like GitHub Pages, Netlify, or Vercel.
+In fact, you can use the GitHub Actions workflow provided in the [Booyaka GitHub repository](https://github.com/openpeeps/booyaka) to automate the deployment of your documentation site to GitHub Pages.
+
+The provided workflow installs Booyaka (and its dependencies), builds the static site, and then deploys it to the `gh-pages` branch of your repository. **That's it! Your documentation site will be live on GitHub Pages.**

@@ -5,14 +5,13 @@ description: "👋 This is Booyaka &mdash; A fast, self-hosted, open-source & fo
 
 ## 👋 About Booyaka
 **Booyaka** is a fast, self-hosted, open-source documentation site generator
-built with the [Nim programming language](https://nim-lang.org/). It allows you to create beautiful, fast, and easy-to-navigate documentation websites from simple **Markdown** files.
+built with the [Nim programming language](https://nim-lang.org/). It allows you to create beautiful, fast, and easy-to-navigate documentation websites from simple **Markdown files.**
 
 Booyaka is a **single-file binary CLI application** that is crazily fast, super lightweight, and easy to set up, making it an excellent choice for developers who want to document their projects efficiently.
 
 <div class="alert alert-info rounded-4" role="alert">
   <div class="alert-content">Booyaka is in active development! If you encounter any issues or have feature requests, please visit the <a href="https://github.com/openpeeps/booyaka/issues" target="_blank" rel="noopener">GitHub Issues page</a> to report them.</div>
 </div>
-
 
 ## 😍 Key Features
 Here are some of the key features that make Booyaka stand out
@@ -24,6 +23,7 @@ Here are some of the key features that make Booyaka stand out
 - ⚡️ Dynamic Site Generation with **embedded HTTP server**
 - 🔎 Search Functionality with Offline capabilities powered by IndexedDB
 - 🔁 Browser Sync & **Live Reload**
+- 🔗 Generate Short URLs for easy sharing
 - 📲 Responsive & Clean UI 💪 Powered by **Bootstrap 5**
 - 💅 Customizable UI themes
 - 🧩 Easy to extend with custom **CSS** and **JS**

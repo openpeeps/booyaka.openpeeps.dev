@@ -1,6 +1,6 @@
 ---
-title: Content
-description: "Detailed documentation on creating and managing content with Booyaka."
+title: Content Features
+description: "Markdown settings, code highlighting, inline editor, and hiding markdown files in Booyaka."
 ---
 
 ## Markdown Features

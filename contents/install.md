@@ -12,8 +12,7 @@ nimble install booyaka
 ```
 
 ## Download Precompiled Binaries
-You can also download precompiled binaries for your operating system from the [Booyaka Releases page](https://github.com/openpeeps/booyaka/releases). Choose the appropriate binary for your OS (Linux, macOS, or Windows), download it, and place it in a directory included in your system's PATH.
-
+You can use precompiled binaries from the [Booyaka Releases page](https://github.com/openpeeps/booyaka/releases). Choose the appropriate binary for your OS (Linux, macOS, or Windows), download it, and place it in a directory included in your system's PATH.
 
 <div class="alert alert-info rounded-4" role="alert">
   <div class="alert-content">The precompiled binaries are safe to use and have been built from the official source code via GitHub Actions.</div>

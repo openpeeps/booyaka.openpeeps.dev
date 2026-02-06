@@ -36,7 +36,7 @@
 
 html[data-bs-theme='dark']:root {
   --bs-body-bg: #0a0e0e;
-  --bs-body-color: #9ea19e;
+  --bs-body-color: #aeaeae;
   --bs-text-heading: #fff;
 }
 

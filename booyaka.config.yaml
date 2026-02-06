@@ -1,7 +1,10 @@
 metadata:
-  url: "https://supranim.com"
+  url: "https://booyaka.openpeeps.com"
   title: "Booyaka &mdash; Documentation Site Generator for Cool kids!"
-  description: "Booyaka is a powerful documentation site generator built with the Nim programming language. It helps you create beautiful, fast, and easy-to-navigate documentation for your projects."
+  description: |
+    Booyaka is a powerful documentation site generator built with the Nim
+    programming language. It helps you create beautiful, fast, and
+    easy-to-navigate documentation for your projects.
   keywords:
     - "documentation generator"
     - "booyaka"
@@ -9,20 +12,44 @@ metadata:
     - "nim lang"
     - "documentation"
 
-markdown:
+# Header Settings
+header:
+  # The search component settings
+  search:
+    # Enable or disable the search functionality
+    enable: true
+
+    # Enable indexing of meta descriptions (title, description, keywords)
+    index_meta_data: true
+    
+    # Enable indexing of page titles (all headings)
+    index_page_titles: true
+
+# Content Settings
+content:
+  # Whether to show the "Last Updated" timestamp on pages
   show_last_updated: true
 
-appearance:
-  container_width: "col-lg-10 mx-auto"
-  content_width: "col-lg-7"
-  background_noise: true
+  # The format string for displaying the "Last Updated" timestamp
+  last_date_updated_format: "yyyy-MM-dd HH:mm:ss"
 
-settings:
-  search: true
-  allow_raw_html: true
+  # Enable bottom navigation links for previous and next pages
+  # This will show navigation links at the bottom of each documentation page
+  bottom_navigation: true
+
+  # Whether to automatically format URLs as clickable
+  # links in Markdown content
+  autoformat_links: true
+
+  # # Code Syntax Highlighting Theme
+  # codeHighlightTheme:
+  #   # The theme to use for code syntax highlighting
+  #   theme: "dracula"
+
+  # Enable AI share buttons in the page header of documentation pages
+  # This adds buttons to share content with AI services like ChatGPT, Claude, etc.
   share_ai_buttons: true
   share_buttons_ai_providers:
-
     - label: "Copy text"
       description: "Copy multi-line text for LLMs"
       onClick: "UI.content.copyText()"
@@ -55,6 +82,15 @@ settings:
       description: "Copy page link to clipboard"
       onClick: "UI.content.copyLink()"
 
+appearance:
+  # The main width of the documentation site container
+  container_width: "col-lg-10 mx-auto"
+  # The width of the main content area
+  content_width: "col-lg-7"
+  # Opacity of the background noise texture (0.0 to 1.0)
+  background_noise_opacity: 0.03 # Set to 0.0 to disable background noise
+
+# Main navigation bar configuration
 navbar:
   - title: "Home"
     url: "/"
@@ -69,8 +105,9 @@ navbar:
     url: "/api"
   
   - title: "GitHub"
-    url: "https://github.com/supranim/supranim"
+    url: "https://github.com/openpeeps/booyaka"
 
+# Sidebar navigation configuration
 sidebar_navigation:
   - name: "Getting Started"
     items:
@@ -83,6 +120,9 @@ sidebar_navigation:
       - title: "Deployment"
         url: "/deployment"
       
+      - title: "Licenses"
+        url: "/licenses"
+
       - title: "Roadmap"
         url: "/roadmap"
 
@@ -91,16 +131,19 @@ sidebar_navigation:
       - title: "Overview"
         url: "/configuration"
       
-      - title: "Main menu"
+      - title: "Menu Navigation"
         url: "/configuration/navigation"
 
-      - title: "Sidebar navigation"
+      - title: "Sidebar Navigation"
         url: "/configuration/sidebar"
       
       - title: "Search"
         url: "/configuration/search"
 
-      - title: "Global SEO Settings"
+      - title: "Versioning"
+        url: "/configuration/versioning"
+
+      - title: "SEO Settings"
         url: "/configuration/seo-settings"
 
       - title: "Share buttons"
@@ -109,10 +152,11 @@ sidebar_navigation:
       - title: "Footer & Social links"
         url: "/configuration/footer"
 
+
       - title: "Extra Sections"
         url: "/configuration/extra-sections"
 
-  - name: 'Content'
+  - name: "Content"
     items:
       - title: "Features"
         url: "/content"
@@ -123,10 +167,10 @@ sidebar_navigation:
       - title: "Images & Media"
         url: "/content/images-media"
       
-      - title: 'Authors'
+      - title: "Authors"
         url: "/content/authors"
 
-      - title: 'SEO Content'
+      - title: "SEO Content"
         url: "/content/seo"
 
   - name: "Customization"
@@ -146,13 +190,13 @@ sidebar_navigation:
 extra_sections:
   left_sidebar:
     - content: |
-        <div class="card border-2 rounded-4 me-3" style="border-style: dotted;">
+        <div class="card border-2 rounded-4" style="border-style: dotted;">
           <div class="card-body small p-2 lh-sm justify-content-center d-flex align-items-center user-select-none">
             <div class="bg-warning flex-shrink-0 rounded-pill p-1 me-2">
-              <img class="img-fluid" src="/bug-icon.png" width="32px" height="32px" alt="Bug Icon">
+              <img class="img-fluid" src="/assets/bug-icon.png" width="32px" height="32px" alt="Bug Icon">
             </div>
             <p class="mb-0 small d-inline">
-              <strong>Found a bug?</strong><br>Create a new issue on <a href="#" class="text-link d-inline-block bg-dark" target="_blank">GitHub</a>
+              <strong>Found a bug?</strong><br>Create a new issue on <a href="https://github.com/openpeeps/booyaka/issues" class="text-link d-inline-block bg-dark" target="_blank">GitHub</a>
             </p>
           </div>
         </div>
@@ -180,8 +224,4 @@ footer:
   # Add social media links in the footer
   social_links:
     - title: "GitHub"
-      url: "https://github.com/supranim/supranim"
-      
-    - title: "Twitter"
-      url: "https://twitter.com/supranim"
-  
+      url: "https://github.com/openpeeps/booyaka"

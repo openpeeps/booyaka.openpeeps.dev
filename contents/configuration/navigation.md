@@ -1,5 +1,5 @@
 ---
-title: "Topbar Navigation"
+title: "Main Menu"
 description: "Configure the topbar navigation structure for your documentation site."
 --- 
 

@@ -6,11 +6,14 @@ description: "Configure SEO settings for your Booyaka documentation site."
 Booyaka allows you to configure SEO (Search Engine Optimization) settings for your documentation site through the `booyaka.config.yaml` file. Proper SEO settings can help improve the visibility of your documentation in search engine results.
 
 ## Global SEO via Config
-```
+```yaml
 metadata:
-  url: "https://booyaka.openpeeps.dev/docs"
+  url: "https://booyaka.openpeeps.com"
   title: "Booyaka &mdash; Documentation Site Generator for Cool kids!"
-  description: "Booyaka is a powerful documentation site generator built with the Nim programming language. It helps you create beautiful, fast, and easy-to-navigate documentation for your projects."
+  description: |
+    Booyaka is a powerful documentation site generator built with the Nim
+    programming language. It helps you create beautiful, fast, and
+    easy-to-navigate documentation for your projects.
   keywords:
     - "documentation generator"
     - "booyaka"
