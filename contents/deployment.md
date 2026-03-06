@@ -62,6 +62,13 @@ WantedBy=multi-user.target
 ```
 
 ## Static Site Deployment
+
+<div class="alert alert-info rounded-4" role="alert">
+  <div class="alert-content">
+    Currently, Static site deployment is not fully supported. We are actively working on improving this feature and will provide updates as soon as it becomes available. Stay tuned for future releases!
+  </div>
+</div>
+
 Booyaka can generate static files for your documentation site, which can be deployed to any static hosting service like GitHub Pages, Netlify, or Vercel.
 In fact, you can use the GitHub Actions workflow provided in the [Booyaka GitHub repository](https://github.com/openpeeps/booyaka) to automate the deployment of your documentation site to GitHub Pages.
 

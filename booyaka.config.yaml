@@ -1,5 +1,4 @@
 metadata:
-  url: "https://booyaka.openpeeps.com"
   title: "Booyaka &mdash; Documentation Site Generator for Cool kids!"
   description: |
     Booyaka is a powerful documentation site generator built with the Nim
@@ -89,6 +88,9 @@ appearance:
   content_width: "col-lg-7"
   # Opacity of the background noise texture (0.0 to 1.0)
   background_noise_opacity: 0.03 # Set to 0.0 to disable background noise
+  show_toggle_left_sidebar: true # Whether to show the toggle button for the right sidebar
+  show_toggle_right_sidebar: true # Whether to show the toggle button for the right sidebar
+  default_theme: "system"
 
 # Main navigation bar configuration
 navbar:

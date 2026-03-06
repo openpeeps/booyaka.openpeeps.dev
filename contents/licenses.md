@@ -12,8 +12,11 @@ Booyaka is offered under a **dual license** model:
 
 If you wish to white label Booyaka and avoid AGPLv3 requirements, please [contact us](mailto:license@openpeeps.dev) for commercial licensing options.
 
+<div class="alert alert-info rounded-4" role="alert">
+  <div class="alert-content">The Whitelabel License and Commercial License will be available for purchase in the future when we have a more streamlined process for handling the commercial licensing.</div>
+</div>
 
-### Whitelabel License
+## Whitelabel License
 
 The **Booyaka Whitelabel License** is more like an add-on to the existing **AGPLv3 license**. This add-on is intended for organizations and teams that want to present Booyaka as their own product while still complying with open source obligations. **This license grants the following rights:**
 
@@ -29,7 +32,7 @@ The **Booyaka Whitelabel License** is more like an add-on to the existing **AGPL
 **Restrictions:**
 - You may not resell Booyaka as a standalone product.
 
-### Commercial License
+## Commercial License
 The Booyaka Commercial License is designed for organizations that require maximum flexibility and proprietary use of the software. This license grants the following rights:
 
 - **Proprietary Use:** Use Booyaka in closed-source, commercial, or internal projects without the obligations of the AGPLv3 license.
@@ -40,5 +43,5 @@ The Booyaka Commercial License is designed for organizations that require maximu
 
 **Restrictions:**
 - You may not resell Booyaka as a standalone product.
-
-For pricing, terms, or to obtain a Commercial License, please [contact us](mailto:license@openpeeps.dev).
+- You may not claim original authorship of Booyaka or misrepresent its origins.
+- You may not use the Booyaka name or logo in a way that implies endorsement or affiliation without permission.
