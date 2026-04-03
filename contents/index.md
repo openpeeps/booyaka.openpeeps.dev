@@ -13,6 +13,8 @@ Booyaka is a **single-file binary CLI application** that is crazily fast, super 
   <div class="alert-content">Booyaka is in active development! If you encounter any issues or have feature requests, please visit the <a href="https://github.com/openpeeps/booyaka/issues" target="_blank" rel="noopener">GitHub Issues page</a> to report them.</div>
 </div>
 
+https://localhost:8080
+
 ## 😍 Key Features
 Here are some of the key features that make Booyaka stand out
 
