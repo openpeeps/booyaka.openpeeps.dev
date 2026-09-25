@@ -40,6 +40,7 @@ appearance:
 git:
   enable_versioning: false # Enable versioning based on Git tags/branches
   enable_contributors_info: false # Show contributors info from Git history
+  latest_label: "main" # Label of the root version in the version switcher
 
 header:
   search:
