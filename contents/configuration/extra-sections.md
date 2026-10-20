@@ -20,3 +20,4 @@ extra_sections:
             <a href="https://hetzner.cloud/?ref=Hm0mYGM9NxZ4" class="btn btn-sm py-1 rounded-pill bg-dark d-inline-block" target="_blank">Sign up to Hetzner Cloud</a>
           </div>
         </div>
+```

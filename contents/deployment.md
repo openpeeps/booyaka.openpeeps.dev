@@ -13,7 +13,7 @@ Booyaka can be configured to work behind a reverse proxy. This is useful if you 
 
 ### Nginx Configuration
 An example configuration for Nginx to set up a reverse proxy for Booyaka is as follows:
-```
+```nginx
 server {
     listen 80;
     server_name docs.example.com;
@@ -31,7 +31,7 @@ server {
 
 ### Apache Configuration
 The following is an example configuration for Apache to set up a reverse proxy for Booyaka:
-```
+```apache
 <VirtualHost *:80>
     ServerName docs.example.com
 
@@ -46,7 +46,7 @@ The following is an example configuration for Apache to set up a reverse proxy f
 To run Booyaka as a service on your server, you can create a systemd service file. 
 This way Booyaka will start automatically on boot and can be managed using standard systemd commands. Create a file named `booyaka.service` in `/etc/systemd/system/` with the following content:
 
-```
+```systemd
 [Unit]
 Description=Booyaka Documentation Service
 After=network.target

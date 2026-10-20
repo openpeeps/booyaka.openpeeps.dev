@@ -34,7 +34,7 @@ Here are some of the key features that make Booyaka stand out
 ## 🚀 Getting Started
 To install Booyaka, you can use `nimble` to build from source. Read the [Nim installation guide](https://nim-lang.org/install.html) if you don't have Nim installed.
 
-```
+```bash
 nimble install booyaka
 ```
 

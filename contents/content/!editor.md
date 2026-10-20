@@ -10,7 +10,7 @@ The built-in content editor that allows you to create and manage your documentat
 ## Enable the Content Editor
 To enable the inline content editor, start your Booyaka site with the `--edit` flag:
 
-```
+```bash
 booyaka run --port:8000 --edit
 ```
 

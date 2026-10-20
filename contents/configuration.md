@@ -8,7 +8,7 @@ aspects of your documentation site. You can use either a **YAML** or **JSON** co
 file to define settings such as **site metadata**, **appearance**, **navigation**, and more. 
 
 If you haven't set up a **Booyaka project** yet, you can create one by running the following command in your terminal 👇
-```
+```bash
 booyaka new project-name
 ```
 

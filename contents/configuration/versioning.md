@@ -55,13 +55,13 @@ Only **semver-compatible** tags are treated as documentation versions. Tags such
 ## Building versioned static sites
 The `build` command generates the full static site for every version:
 
-```
+```bash
 booyaka build .
 ```
 
 The output layout mirrors the URL structure:
 
-```
+```text
 _build/
   index.html            # root version (main / current working tree)
   installation/

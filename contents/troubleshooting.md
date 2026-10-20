@@ -5,7 +5,7 @@ description: "Common issues and their solutions when using Booyaka"
 
 ### Out of memory error
 Updating your Booyaka from an older version to a newer one may cause an
-```
+```text
 out of memory
 ```
 

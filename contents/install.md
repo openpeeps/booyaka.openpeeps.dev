@@ -7,7 +7,7 @@ description: "Instructions to install Booyaka Command Line Interface on your sys
 The recommended way to install Booyaka is via `nimble`, the package manager for Nim. First, ensure you have Nim installed on your system. You can find installation instructions on the [Nim website](https://nim-lang.org/install.html). 
 
 Once you have Nim set up, run the following command to install Booyaka:
-```
+```bash
 nimble install booyaka
 ```
 
@@ -24,17 +24,32 @@ _Ensure that you have the necessary permissions to execute the downloaded binary
 ## Running Booyaka
 Once you have [Booyaka installed](/introduction), you can quickly generate a new documentation website via the command line interface.
 
-```
+```bash
 booyaka new my_docs_site
 ```
 
 Navigate to the newly created directory:
-```
-booyaka run --port:8000 --sync
+```bash
+booyaka start --port:8000 --sync
 ```
 
 
 Get a list of all available commands and options by running:
+```bash
+$ booyaka -h
 ```
-booyaka --help
+
+```text
+A fast documentation generator for cool kids!
+  (c) George Lemon | AGPL-3.0-or-later License  
+  Build Version: 0.2.0
+
+  new <project:path>           Create a new Booyaka project in the specified directory
+          --json:bool
+  theme <name:string>          Create a new blank Booyaka theme in ./<name>
+  start <project:path>         Init the app with the given installation path
+             --sync:bool
+             --port:port
+          --devMode:bool
+  build <project:path>         Generate static HTML website
 ``` 
