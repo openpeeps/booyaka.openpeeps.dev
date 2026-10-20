@@ -1,0 +1,30 @@
+body::after {
+  font-weight: 700;
+  letter-spacing: -35px;
+  content: "booyaka";
+  width: 100%;
+  font-size: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  pointer-events: none;
+  z-index: -1;
+  height: 300px;
+  margin-top: -200px;
+  padding-bottom: 50px;
+  opacity: 0.5;
+  line-height: 23rem;
+  overflow: hidden;
+}
+
+html[data-bs-theme="dark"] body::after {
+  color: rgb(27, 26, 26);
+}
+
+html[data-bs-theme="light"] body::after {
+  color: rgb(213, 213, 213);
+}
